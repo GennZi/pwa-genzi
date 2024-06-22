@@ -1,0 +1,20 @@
+{
+  "name": "pwa-genzi",
+  "version": "1.0.0",
+  "description": "PWA Genzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GennZi/pwa-genzi.git"
+  },
+  "author": "Genzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GennZi/pwa-genzi/issues"
+  },
+  "homepage": "https://github.com/GennZi/pwa-genzi#readme"
+}
