@@ -6,8 +6,9 @@ app.get('/', (req, res) => {
 });
 
 app.listen(3000, (req, res, error)=>{
-    try {
-        consoele.log('Server listening on', 3000)
-    }
-    catch (error) {}
-})
+    if(error){
+      console.log(error)
+    }else{
+        console.log('SSServer listening on', 3000)
+    } 
+}) 
