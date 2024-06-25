@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Genzi PWA Teste!');
+  res.send('Genzi PWA Testeee!');
 });
 
 app.listen(3000, (req, res, error)=>{
