@@ -1,0 +1,14 @@
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Genzi PWA Testeee!');
+});
+
+app.listen(3000, (req, res, error)=>{
+    if(error){
+      console.log(error)
+    }else{
+        console.log('Server listening on', 3000)
+    } 
+}) 
